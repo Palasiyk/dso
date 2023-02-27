@@ -36,3 +36,7 @@ Route::get('/team/{player_id}/edit', [TeamController::class, 'edit'])->name('edi
 Route::patch('/team/update', [TeamController::class, 'update'])->name('updatePlayer');
 Route::get('/team/dalete', [TeamController::class, 'dalete'])->name('daletePlayer');
 
+
+Route::get('/kalendar', [KalendarController::class, 'index'])->name('kalendar');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
+Route::get('/about', [AboutController::class, 'index'])->name('about');
