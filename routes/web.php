@@ -19,22 +19,19 @@ use App\Http\Controllers\AboutController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 //TEAM ROUTE
 Route::get('/team', [TeamController::class, 'index'])->name('teamPlayer');
 Route::get('/team/create', [TeamController::class, 'create'])->name('createPlayer');
 Route::post('/team', [TeamController::class, 'store'])->name('storePlayer');
-Route::get('/team/{player_id}', [TeamController::class, 'show'])->name('showPlayer');
-Route::get('/team/{player_id}/edit', [TeamController::class, 'edit'])->name('editPlayer');
+Route::get('/team/{player}', [TeamController::class, 'show'])->name('showPlayer');
+Route::get('/team/{player}/edit', [TeamController::class, 'edit'])->name('editPlayer');
 Route::patch('/team/update', [TeamController::class, 'update'])->name('updatePlayer');
-Route::get('/team/dalete', [TeamController::class, 'dalete'])->name('daletePlayer');
+Route::delete('/team/delete', [TeamController::class, 'destroy'])->name('deletePlayer');
 
 
 Route::get('/kalendar', [KalendarController::class, 'index'])->name('kalendar');

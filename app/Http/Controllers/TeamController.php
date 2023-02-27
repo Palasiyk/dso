@@ -62,9 +62,9 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Team $player_id)
+    public function show(Team $player)
     {
-        return view('team.show', compact('player_id'));
+        return view('team.show', compact('player'));
     }
 
     /**
@@ -73,9 +73,9 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Team $player_id)
+    public function edit(Team $player)
     {
-        return view('team.edit', compact('player_id'));
+        return view('team.edit', compact('player'));
 
     }
 
@@ -86,10 +86,10 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Team $player_id)
+    public function update(Team $player)
     {
         $data = request()->validate([
-            'name'=>'string',
+            'name'=>'',
             'namber'=>'',
             'position'=>'',
             'byrthday'=>'',
@@ -100,7 +100,7 @@ class TeamController extends Controller
         ]);
 //        dd($data);
         Team::updated($data);
-        return redirect()->route('teamPlayer', $player_id->id);
+        return redirect()->route('teamPlayer', $player->id);
 
     }
 
@@ -110,11 +110,15 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function dalete()
-    {
-        $team = Team::withTrashed()->find(4);
-        $team -> restore();
-        dd('del');
+//    public function delete(Team $player)
+//    {
+//        $team = Team::withTrashed()->find(4);
+//        $team -> restore();
+//        dd('del');
+//    }
 
+    public function destroy(Team $player){
+        $player->delete();
+        return redirect()->route('teamPlayer');
     }
 }

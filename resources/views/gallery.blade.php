@@ -16,7 +16,7 @@
     </div>
 
     {{--    CAROUSEL--}}
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide m-5" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
@@ -30,39 +30,39 @@
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="9" aria-label="Slide 10" class=""></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="10" aria-label="Slide 11" class="" aria-current="true"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner" style="height: 800px;">
             <div class="carousel-item active">
-                <img class="carousel_img" src="img/barcom/0.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/0.jpg" alt="yura">
             </div>
             <div class="carousel-item">
-                <img class="carousel_img" src="img/barcom/1.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/1.jpg" alt="yura">
             </div>
             <div class="carousel-item">
-                <img class="carousel_img" src="img/barcom/2.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/2.jpg" alt="yura">
             </div>
             <div class="carousel-item">
-                <img class="carousel_img" src="img/barcom/3.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/3.jpg" alt="yura">
             </div>
             <div class="carousel-item">
-                <img class="carousel_img" src="img/barcom/4.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/4.jpg" alt="yura">
             </div>
             <div class="carousel-item ">
-                <img class="carousel_img" src="img/barcom/5.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/5.jpg" alt="yura">
             </div>
             <div class="carousel-item ">
-                <img class="carousel_img" src="img/barcom/6.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/6.jpg" alt="yura">
             </div>
             <div class="carousel-item ">
-                <img class="carousel_img" src="img/barcom/7.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/7.jpg" alt="yura">
             </div>
             <div class="carousel-item ">
-                <img class="carousel_img" src="img/barcom/8.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/8.jpg" alt="yura">
             </div>
             <div class="carousel-item ">
-                <img class="carousel_img" src="img/barcom/9.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/9.jpg" alt="yura">
             </div>
             <div class="carousel-item ">
-                <img class="carousel_img" src="img/barcom/10.jpg" alt="yura">
+                <img class="carousel_img w-100" src="img/barcom/10.jpg" alt="yura">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
