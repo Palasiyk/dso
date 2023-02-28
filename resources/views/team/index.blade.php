@@ -33,8 +33,13 @@
                             </ul>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <a href="{{route('showPlayer', $player->id)}}" class="btn btn-sm btn-outline-secondary">View</a>
+                                    <a href="{{route('editPlayer', $player->id)}}" class="btn btn-sm btn-outline-secondary">UPDATE</a>
+                                    <form action="{{ route('deletePlayer', $player->id) }}" method="post">
+                                        @csrf
+                                        @method('delete')
+                                        <input type="submit" value="DELETE" class="btn btn-sm btn-outline-secondary">
+                                    </form>
                                 </div>
                             </div>
                         </div>

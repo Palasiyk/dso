@@ -13,11 +13,11 @@ class TeamController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index():View
+    public function index(Team $id):View
     {
 //        $team = Team::all();
 //        dd($team);
-        return view('team.index',[
+        return view('team.index', compact('id'),[
             'team'=>Team::all()
         ]);
     }
@@ -39,7 +39,7 @@ class TeamController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store()
+    public function store(Request $request)
     {
         $data = request()->validate([
             'name'=>'string',
@@ -64,9 +64,9 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Team $player)
+    public function show(Team $id)
     {
-        return view('team.show', compact('player'));
+        return view('team.show', compact('id'));
     }
 
     /**
@@ -75,9 +75,9 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Team $player)
+    public function edit(Team $id)
     {
-        return view('team.edit', compact('player'));
+        return view('team.edit', compact('id'));
 
     }
 
@@ -88,9 +88,9 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Team $player)
+    public function update(Request $request, Team $id)
     {
-        $data = request()->validate([
+        $request -> validate([
             'name'=>'string',
             'namber'=>'',
             'position'=>'',
@@ -102,8 +102,8 @@ class TeamController extends Controller
             'jump'=>'',
             'image'=>'',
         ]);
-        Team::updated($data);
-        return redirect()->route('showPlayer', $player->id);
+        $id->fill($request->post())->update();
+        return redirect()->route('showPlayer', $id->id);
 
     }
 
@@ -114,9 +114,9 @@ class TeamController extends Controller
      * @return \Illuminate\Http\Response
      */
 
-    public function destroy(Team $player)
+    public function destroy(Team $id)
     {
-        $player->delete();
+        $id->delete();
         return redirect()->route('teamPlayer');
     }
 }
