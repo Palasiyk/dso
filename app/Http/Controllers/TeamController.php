@@ -45,6 +45,8 @@ class TeamController extends Controller
             'name'=>'string',
             'namber'=>'',
             'position'=>'',
+            'nacionality'=>'',
+            'bith_place'=>'',
             'byrthday'=>'',
             'height'=>'',
             'weight'=>'',
@@ -89,18 +91,19 @@ class TeamController extends Controller
     public function update(Team $player)
     {
         $data = request()->validate([
-            'name'=>'',
+            'name'=>'string',
             'namber'=>'',
             'position'=>'',
+            'nacionality'=>'',
+            'bith_place'=>'',
             'byrthday'=>'',
             'height'=>'',
             'weight'=>'',
             'jump'=>'',
             'image'=>'',
         ]);
-//        dd($data);
         Team::updated($data);
-        return redirect()->route('teamPlayer', $player->id);
+        return redirect()->route('showPlayer', $player->id);
 
     }
 
@@ -110,14 +113,9 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-//    public function delete(Team $player)
-//    {
-//        $team = Team::withTrashed()->find(4);
-//        $team -> restore();
-//        dd('del');
-//    }
 
-    public function destroy(Team $player){
+    public function destroy(Team $player)
+    {
         $player->delete();
         return redirect()->route('teamPlayer');
     }

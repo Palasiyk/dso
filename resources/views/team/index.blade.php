@@ -6,8 +6,6 @@
 {{--        @if(Route::has('login');--}}
             <a href="{{route('createPlayer')}}" class="btn btn-sm btn-outline-secondary">CREATE</a>
 {{--        @endif--}}
-         <a href="{{route('teamPlayer')}}" class="btn btn-sm btn-outline-secondary">BACK</a>
-
     <div class="team_list row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
     @foreach($team as $player)
         <div class="col">
@@ -26,11 +24,10 @@
                         <div class="card-body">
                             <h2 class="card_text card-title pricing-card-title">SHIRT NUMBER <span class="card_subtext">{{$player->namber}}</span></h2>
                             <h2 class="card_text card-title pricing-card-title">POSITION <span class="card_subtext">{{$player->position}}</span></h2>
-                            <h2 class="card_text card-title pricing-card-title">SPORT NATIONALITY  <span class="card_subtext">UKR</span></h2>
-                            <h2 class="card_text card-title pricing-card-title">BIRTH PLACE  <span class="card_subtext">М. ЛЯНТОР (РОСІЙСЬКА ФЕДЕРАЦІЯ)  (УКРАЇНА)</span></h2>
+                            <h2 class="card_text card-title pricing-card-title">SPORT NATIONALITY  <span class="card_subtext">{{$player->nacionality}}</span></h2>
+                            <h2 class="card_text card-title pricing-card-title">BIRTH PLACE  <span class="card_subtext">{{$player->bith_place}}</span></h2>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li class="card_text">HEIGTH <span class="card_subtext">{{$player->height}}</span></li>
-                                <li class="card_text">REACH <span class="card_subtext">320</span></li>
                                 <li class="card_text">JUMP <span class="card_subtext">{{$player->jump}}</span></li>
                                 <li class="card_text">DATE OF BIRTH <span class="card_subtext">{{$player->byrthday}}</span></li>
                             </ul>

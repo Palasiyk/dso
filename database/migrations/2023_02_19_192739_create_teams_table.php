@@ -14,8 +14,10 @@ return new class extends Migration
         Schema::create('teams', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->integer('namber');
-            $table->string('position');
+            $table->integer('namber')->nullable();
+            $table->string('position')->nullable();
+            $table->string('nacionality')->nullable();
+            $table->string('bith_place')->nullable();
             $table->date('byrthday')->nullable();
             $table->integer('height')->nullable();
             $table->integer('weight')->nullable();

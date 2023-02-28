@@ -30,8 +30,8 @@ Route::get('/team/create', [TeamController::class, 'create'])->name('createPlaye
 Route::post('/team', [TeamController::class, 'store'])->name('storePlayer');
 Route::get('/team/{player}', [TeamController::class, 'show'])->name('showPlayer');
 Route::get('/team/{player}/edit', [TeamController::class, 'edit'])->name('editPlayer');
-Route::patch('/team/update', [TeamController::class, 'update'])->name('updatePlayer');
-Route::delete('/team/delete', [TeamController::class, 'destroy'])->name('deletePlayer');
+Route::patch('/team/{player}', [TeamController::class, 'update'])->name('updatePlayer');
+Route::delete('/team/{player}', [TeamController::class, 'destroy'])->name('deletePlayer');
 
 
 Route::get('/kalendar', [KalendarController::class, 'index'])->name('kalendar');
