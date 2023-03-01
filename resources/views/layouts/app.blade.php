@@ -31,6 +31,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                         <li><a href="/team" class="nav-link px-2 link-dark">Team</a></li>
+                        <li><a href="/statistiks" class="nav-link px-2 link-dark">Statistiks</a></li>
                         <li><a href="/kalendar" class="nav-link px-2 link-dark">Kalendar</a></li>
                         <li><a href="/gallery" class="nav-link px-2 link-dark">Games</a></li>
                         <li><a href="/about" class="nav-link px-2 link-dark">About</a></li>
