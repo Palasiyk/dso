@@ -38,12 +38,12 @@ Route::delete('/team/{id}', [TeamController::class, 'destroy'])->name('deletePla
 
 //STATISTIKS ROUTE
 Route::get('/statistiks', [StatistikController::class, 'index'])->name('statPlayer');
-//Route::get('/team/create', [TeamController::class, 'create'])->name('createPlayer');
-//Route::post('/team', [TeamController::class, 'store'])->name('storePlayer');
-//Route::get('/team/{id}', [TeamController::class, 'show'])->name('showPlayer');
-//Route::get('/team/{id}/edit', [TeamController::class, 'edit'])->name('editPlayer');
-//Route::patch('/team/{id}', [TeamController::class, 'update'])->name('updatePlayer');
-//Route::delete('/team/{id}', [TeamController::class, 'destroy'])->name('deletePlayer');
+Route::get('/statistiks/create', [StatistikController::class, 'create'])->name('createStatPlayer');
+Route::post('/statistiks', [StatistikController::class, 'store'])->name('storeStatPlayer');
+Route::get('/statistiks/{id}', [StatistikController::class, 'show'])->name('showStatPlayer');
+Route::get('/statistiks/{id}/edit', [StatistikController::class, 'edit'])->name('editStatPlayer');
+Route::patch('/statistiks/{id}', [StatistikController::class, 'update'])->name('updateStatPlayer');
+Route::delete('/statistiks/{id}', [StatistikController::class, 'destroy'])->name('deleteStatPlayer');
 
 Route::get('/kalendar', [KalendarController::class, 'index'])->name('kalendar');
 Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
