@@ -4,7 +4,7 @@
 
     <h2 class="team_list_name">Player Statistiks</h2>
 {{--        @if(Route::has('login');--}}
-            <a href="{{route('createPlayer')}}" class="btn btn-sm btn-outline-secondary">CREATE</a>
+            <a href="{{route('createStatPlayer')}}" class="btn btn-sm btn-outline-secondary">CREATE</a>
 {{--        @endif--}}
     <div class="container" style="margin: 0 auto; width: 100%; max-width: 1400px">
         <table class="table table-striped">
@@ -32,8 +32,17 @@
             @foreach($team as $title)
             <tbody>
             <tr>
-                <th scope="row">{{ $title->PlayerNu }}</th>
-                <td>{{ $title->Player }}</td>
+
+                 <th scope="row">
+                     <a href="{{ route('showStatPlayer', $title->id) }}">
+                        {{ $title->PlayerNu }}
+                     </a>
+                 </th>
+                <td>
+                    <a href="{{ route('showStatPlayer', $title->id) }}">
+                        {{ $title->name }}
+                    </a>
+                </td>
                 <td>{{ $title->PlayedSet }}</td>
                 <td>{{ $title->TotPoint }}</td>
                 <td>{{ $title->TotServ }}</td>

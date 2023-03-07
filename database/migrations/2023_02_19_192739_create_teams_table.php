@@ -14,6 +14,11 @@ return new class extends Migration
         Schema::create('teams', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+
+            $table->index('name', 'statistic_name_idx');
+            $table->foreign('name', 'statistic_name_idx')->
+            on('statistik')->references('name');
+
             $table->integer('namber')->nullable();
             $table->string('position')->nullable();
             $table->string('nacionality')->nullable();
