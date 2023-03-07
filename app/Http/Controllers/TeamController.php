@@ -104,7 +104,6 @@ class TeamController extends Controller
         ]);
         $id->fill($request->post())->update();
         return redirect()->route('showPlayer', $id->id);
-
     }
 
     /**
