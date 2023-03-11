@@ -7,11 +7,11 @@
             @csrf
             <div class="mb-3">
                 <label for="number" class="form-label">Number</label>
-                <input class="form-control" name="PlayerNu" type="number" id="PlayerNu">
+                <input class="form-control" name="namber" type="number" id="namber">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1">Name</label>
-                <input name="name" type="text" class="form-control" id="name" placeholder="name">
+                <input name="PlayerName" type="text" class="form-control" id="name" placeholder="name">
             </div>
             <div class="mb-3">
                 <label for="number" class="form-label">PlayedSet</label>

@@ -20,6 +20,53 @@
                             <li class="card_text">JUMP <span class="card_subtext">{{$id->jump}}</span></li>
                             <li class="card_text">DATE OF BIRTH <span class="card_subtext">{{$id->byrthday}}</span></li>
                         </ul>
+
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th scope="col">NumberPlayer</th>
+                                <th scope="col">PlayerName</th>
+                                <th scope="col">Played Set</th>
+                                <th scope="col">TotPoint</th>
+                                <th scope="col">TotServ</th>
+                                <th scope="col">AceServ</th>
+                                <th scope="col">ErrServ</th>
+                                <th scope="col">EffServ</th>
+                                <th scope="col">TotRes</th>
+                                <th scope="col">ErrRes</th>
+                                <th scope="col">NegRes</th>
+                                <th scope="col">ExcRes</th>
+                                <th scope="col">TotAtac</th>
+                                <th scope="col">ErrAtac</th>
+                                <th scope="col">ExcAtec</th>
+                                <th scope="col">EffAtec</th>
+                                <th scope="col">Block</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">{{ $id -> stat['team_namber']}}</th>
+                                <td>{{ $id -> stat['PlayerName'] }}</td>
+                                <td>{{ $id -> stat['PlayedSet'] }}</td>
+                                <td>{{ $id -> stat['TotPoint'] }}</td>
+                                <td>{{ $id -> stat['TotServ'] }}</td>
+                                <td>{{ $id -> stat['AceServ'] }}</td>
+                                <td>{{ $id -> stat['ErrServ'] }}</td>
+                                <td>{{ $id -> stat['EffServ'] }}</td>
+                                <td>{{ $id -> stat['TotRes'] }}</td>
+                                <td>{{ $id -> stat['ErrRes'] }}</td>
+                                <td>{{ $id -> stat['NegRes'] }}</td>
+                                <td>{{ $id -> stat['ExcRes'] }}</td>
+                                <td>{{ $id -> stat['TotAtac'] }}</td>
+                                <td>{{ $id -> stat['ErrAtac'] }}</td>
+                                <td>{{ $id -> stat['ExcAtec'] }}</td>
+                                <td>{{ $id -> stat['EffAtec'] }}</td>
+                                <td>{{ $id -> stat['Block'] }}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                                 <a href="{{route('teamPlayer')}}" class="btn btn-sm btn-outline-secondary">BACK</a>

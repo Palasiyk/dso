@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Statistik;
+use App\Models\Team;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -34,8 +35,8 @@ class StatistikController extends Controller
     public function store(Request $request)
     {
         $request = request()->validate([
-            'name'=>'string',
-            'PlayerNu'=>'',
+            'namber'=>'',
+            'PlayerName'=>'',
             'PlayedSet'=>'',
             'TotPoint'=>'',
             'TotServ'=>'',
@@ -79,9 +80,9 @@ class StatistikController extends Controller
      */
     public function update(Request $request, Statistik $id)
     {
-        $request ->validate([
-            'name'=>'string',
-            'PlayerNu'=>'',
+        $request -> validate([
+            'PlayerName'=>'string',
+            'namber'=>'',
             'PlayedSet'=>'',
             'TotPoint'=>'',
             'TotServ'=>'',

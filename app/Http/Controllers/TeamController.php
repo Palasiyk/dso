@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Statistik;
 use App\Models\Team;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
@@ -15,8 +16,6 @@ class TeamController extends Controller
      */
     public function index(Team $id):View
     {
-//        $team = Team::all();
-//        dd($team);
         return view('team.index', compact('id'),[
             'team'=>Team::all()
         ]);
@@ -42,7 +41,7 @@ class TeamController extends Controller
     public function store(Request $request)
     {
         $data = request()->validate([
-            'name'=>'string',
+            'name'=>'',
             'namber'=>'',
             'position'=>'',
             'nacionality'=>'',
@@ -66,7 +65,10 @@ class TeamController extends Controller
      */
     public function show(Team $id)
     {
-        return view('team.show', compact('id'));
+        $team = Team::find(1);
+        $statistiks = $team -> stat;
+//        dd($statistiks);
+        return view('team.show', compact('id', 'statistiks'));
     }
 
     /**
@@ -91,7 +93,7 @@ class TeamController extends Controller
     public function update(Request $request, Team $id)
     {
         $request -> validate([
-            'name'=>'string',
+            'name'=>'',
             'namber'=>'',
             'position'=>'',
             'nacionality'=>'',

@@ -7,7 +7,7 @@
             <thead>
             <tr>
                 <th scope="col">NumberPlayer</th>
-                <th scope="col">Player</th>
+                <th scope="col">PlayerName</th>
                 <th scope="col">Played Set</th>
                 <th scope="col">TotPoint</th>
                 <th scope="col">TotServ</th>
@@ -27,8 +27,8 @@
             </thead>
             <tbody>
             <tr>
-                <th scope="row">{{ $id->PlayerNu }}</th>
-                <td>{{ $id->name }}</td>
+                <th scope="row">{{ $id->namber }}</th>
+                <td>{{ $id->PlayerName }}</td>
                 <td>{{ $id->PlayedSet }}</td>
                 <td>{{ $id->TotPoint }}</td>
                 <td>{{ $id->TotServ }}</td>

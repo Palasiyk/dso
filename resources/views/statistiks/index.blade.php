@@ -35,12 +35,12 @@
 
                  <th scope="row">
                      <a href="{{ route('showStatPlayer', $title->id) }}">
-                        {{ $title->PlayerNu }}
+                        {{ $title->namber }}
                      </a>
                  </th>
                 <td>
                     <a href="{{ route('showStatPlayer', $title->id) }}">
-                        {{ $title->name }}
+                        {{ $title->PlayerName }}
                     </a>
                 </td>
                 <td>{{ $title->PlayedSet }}</td>

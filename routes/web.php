@@ -21,6 +21,18 @@ use App\Http\Controllers\AboutController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+//
+//Route::get('/', function () {
+//    $teams = \App\Models\Team::all();
+////    dd($directors -> film);
+//
+//    foreach ($teams as $team)
+//        echo 'Team: '.$team. '<br>';
+//        echo 'Stat: '.$team -> stat.'<br>';
+//
+////    $arr = $dir -> film['name'];
+////    dd($arr);
+//});
 
 Auth::routes();
 
