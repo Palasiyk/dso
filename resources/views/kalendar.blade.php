@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <h1>Турнірна таблиця</h1>
+    <h1 class="text-center m-4">Турнірна таблиця</h1>
         <container>
-             <table class="table table-striped-columns">
+             <table class="table table-striped-columns text-center align-middle">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -21,8 +21,10 @@
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>logo</td>
-                        <td>"ЕПІЦЕНТР-ПОДОЛЯНИ"</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/epic.jpeg" alt="logo">
+                        </td>
+                        <td>"Епіцентр-Подоляни"</td>
                         <td>21</td>
                         <td>20</td>
                         <td>1</td>
@@ -32,7 +34,9 @@
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td>logo</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/prom.jpeg" alt="logo">
+                        </td>
                         <td>ВК "Прометей"</td>
                         <td>21</td>
                         <td>18</td>
@@ -43,7 +47,9 @@
                     </tr>
                     <tr>
                         <th scope="row">3</th>
-                        <td>logo</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/zutu.jpeg" alt="logo">
+                        </td>
                         <td>"ВК "Житичі-Полісся"</td>
                         <td>21</td>
                         <td>11</td>
@@ -54,7 +60,9 @@
                     </tr>
                     <tr>
                         <th scope="row">4</th>
-                        <td>logo</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/mxp.jpeg" alt="logo">
+                        </td>
                         <td>Волейбольний клуб "МХП-Вінниця"-ШВСМ</td>
                         <td>21</td>
                         <td>11</td>
@@ -65,7 +73,9 @@
                     </tr>
                     <tr>
                         <th scope="row">5</th>
-                        <td>logo</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/law.jpeg" alt="logo">
+                        </td>
                         <td>ВСК "Юридична академія"</td>
                         <td>21</td>
                         <td>9</td>
@@ -76,7 +86,9 @@
                     </tr>
                     <tr>
                         <th scope="row">6</th>
-                        <td>logo</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/reset.jpeg" alt="logo">
+                        </td>
                         <td>"Збірна Полтавської області ВК "Решетилівка"</td>
                         <td>21</td>
                         <td>7</td>
@@ -87,7 +99,9 @@
                     </tr>
                     <tr>
                         <th scope="row">7</th>
-                        <td>logo</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/pol.jpeg" alt="logo">
+                        </td>
                         <td>"ПОЛІЦІЯ ОХОРОНИ-ЗУНУ-ДИНАМО"</td>
                         <td>21</td>
                         <td>5</td>
@@ -98,7 +112,9 @@
                     </tr>
                     <tr>
                         <th scope="row">8</th>
-                        <td>logo</td>
+                        <td>
+                            <img style="width: 60px" src="img/logo/barcom.jpeg" alt="logo">
+                        </td>
                         <td>"Барком-Збірна України U-18"</td>
                         <td>21</td>
                         <td>3</td>

@@ -18,6 +18,7 @@ return new class extends Migration
             $table->foreign('namber')->references('namber')
                 ->on('teams')->onDelete('cascade');
 
+            $table->string('image')->nullable();
             $table->string('PlayerName')->unique();
             $table->integer('PlayedSet')->nullable();
 

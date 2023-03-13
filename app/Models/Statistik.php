@@ -14,8 +14,7 @@ class Statistik extends Model
 //    protected $table = 'statistiks';
     protected $guarded = [];
 
-//    public function team()
-//    {
-//        return $this->hasOne(Team::class);
-//    }
+    public function team()
+    {
+        return $this->hasOne(Statistik::class, 'image', 'image' );    }
 }

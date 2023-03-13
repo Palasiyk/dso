@@ -104,6 +104,7 @@ class TeamController extends Controller
             'jump'=>'',
             'image'=>'',
         ]);
+//        dd($request);
         $id->fill($request->post())->update();
         return redirect()->route('showPlayer', $id->id);
     }
