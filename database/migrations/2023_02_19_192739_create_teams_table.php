@@ -23,6 +23,7 @@ return new class extends Migration
             $table->integer('weight')->nullable();
             $table->integer('jump')->nullable();
             $table->string('image')->nullable();
+            $table->string('insta')->nullable();
 
 //            $table->foreign('image')->references('image')
 //                ->on('statistiks')->onDelete('cascade');

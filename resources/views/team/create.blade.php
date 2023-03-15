@@ -34,6 +34,10 @@
                 <input class="form-control" name="byrthday" type="date" id="byrthday">
             </div>
             <div class="mb-3">
+                <label for="exampleFormControlInput1">Instagtam</label>
+                <input name="insta" type="text" class="form-control" id="insta" placeholder="Instagtam">
+            </div>
+            <div class="mb-3">
                 <label for="number">height</label>
                 <input name="height" class="form-control" type="number" id="height">
             </div>
