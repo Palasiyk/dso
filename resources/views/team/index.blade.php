@@ -4,7 +4,11 @@
 
     <div class="row text-center mb-3">
         <h1 class="col team_list_name ">Гравці</h1>
-        <a href="{{route('createPlayer')}}" class="col-3 align-middle btn btn-sm btn-outline-secondary">CREATE</a>
+
+        @can( $role->role != 'NULL' )
+            <a href="{{route('createPlayer')}}" class="col-3 align-middle btn btn-sm btn-outline-secondary">CREATE</a>
+        @endcan
+
     </div>
     <div class="team_list row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
     @foreach($team as $player)
@@ -32,7 +36,8 @@
                             <li class="card_text">JUMP <span class="card_subtext">{{$player->jump}}</span></li>
                             <li class="card_text">DATE OF BIRTH <span class="card_subtext">{{$player->byrthday}}</span></li>
                         </ul>
-{{--                        @can( 'view', auth()->user()->role )--}}
+
+                        @can( $role->role == 'admin' )
                             <div class="btn-group">
                                 <a href="{{route('showPlayer', $player->id)}}" class="btn btn-sm btn-outline-secondary">View</a>
                                 <a href="{{route('editPlayer', $player->id)}}" class="btn btn-sm btn-outline-secondary">UPDATE</a>
@@ -42,7 +47,8 @@
                                     <input type="submit" value="DELETE" class="btn btn-sm btn-outline-secondary">
                                 </form>
                             </div>
-{{--                        @endcan--}}
+                        @endcan
+
                     </div>
                 </div>
             </div>
