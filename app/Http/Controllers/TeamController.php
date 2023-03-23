@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Statistik;
+//use App\Models\Statistik;
 use App\Models\Team;
+use App\Models\User;
+//use http\Client\Curl\User;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -16,7 +18,10 @@ class TeamController extends Controller
      */
     public function index(Team $id):View
     {
-        return view('team.index', compact('id'),[
+        $user = User::find(1);
+        $role = $user -> role;
+//        dd($role);
+        return view('team.index', compact('id', 'user'),[
             'team'=>Team::all()
         ]);
     }
@@ -64,12 +69,14 @@ class TeamController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Team $id)
+    public function show(Team $id, User $model)
     {
+//        $role = User::find(1);
+//        dd($role->role);
         $team = Team::find(1);
         $statistiks = $team -> stat;
 //        dd($statistiks);
-        return view('team.show', compact('id', 'statistiks'));
+        return view('team.show', compact('id', 'statistiks', 'model'));
     }
 
     /**

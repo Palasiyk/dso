@@ -1,4 +1,4 @@
-@extends('../layouts.app')
+@extends('layouts.app')
 
 @section('content')
 
@@ -24,19 +24,20 @@
                             <li class="card_text">DATE OF BIRTH <span class="card_subtext fs-3">{{$id->byrthday}}</span></li>
                         </ul>
 
-{{--                        @can( 'view', auth()->user()->role )--}}
+                        @can ($model->role == 'admin')
                             <div class="d-flex align-items-center">
                                 <div class="btn-group">
                                     <a href="{{route('teamPlayer')}}" class="btn btn-sm btn-outline-secondary">BACK</a>
                                     <a href="{{route('editPlayer', $id->id)}}" class="btn btn-sm btn-outline-secondary">UPDATE</a>
                                     <form action="{{ route('deletePlayer', $id->id) }}" method="post">
-                                        @csrf
-                                        @method('delete')
-                                        <input type="submit" value="DELETE" class="btn btn-sm btn-outline-secondary">
+                                    @csrf
+                                    @method('delete')
+                                    <input type="submit" value="DELETE" class="btn btn-sm btn-outline-secondary">
                                     </form>
                                 </div>
-                            </div>
-{{--                        @endcan--}}
+                             </div>
+                        @endcan
+
                         <div class="nav m-3">
                             <a href="{{$id->insta}}" target="_blank">
                                 <img class="w-50" src="../img/logo/Instagram.png" alt="insta">

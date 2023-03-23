@@ -80,7 +80,7 @@
                         <img style="width: 60px" src="img/logo/epic.jpeg" alt="logo">
                         <h3 class="team_name_play-off">"Епіцентр-Подоляни"</h3>
                         <div class="col">
-                            <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">0</h2>
+                            <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">1</h2>
                         </div>
                     </div>
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
