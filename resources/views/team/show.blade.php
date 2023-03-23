@@ -1,4 +1,4 @@
-@extends('../layouts.app')
+@extends('layouts.app')
 
 @section('content')
 
@@ -24,7 +24,7 @@
                             <li class="card_text">DATE OF BIRTH <span class="card_subtext fs-3">{{$id->byrthday}}</span></li>
                         </ul>
 
-                        @can( $role->role == 'admin' )
+                        @can ($model->role == 'admin')
                             <div class="d-flex align-items-center">
                                 <div class="btn-group">
                                     <a href="{{route('teamPlayer')}}" class="btn btn-sm btn-outline-secondary">BACK</a>
