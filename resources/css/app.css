@@ -1,1 +1,29 @@
+.logo{
+    width: 20%;
+}
 
+.play-off_border{
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow-block: auto;
+}
+
+@media (max-width: 1024px) {
+    .team_name_play-off{
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    .team_name{
+        display: none;
+    }
+    .nav_left_col{
+        display: none;
+    }
+}
+
+/*GALARY_BLADE*/
+.kalendar_tittle{
+    vertical-align: inherit
+}

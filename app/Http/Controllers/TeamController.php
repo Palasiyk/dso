@@ -19,7 +19,7 @@ class TeamController extends Controller
     public function index(Team $id):View
     {
         $user = User::find(1);
-        $role = $user -> role;
+//        $role = $user -> role;
 //        dd($role);
         return view('team.index', compact('id', 'user'),[
             'team'=>Team::all()

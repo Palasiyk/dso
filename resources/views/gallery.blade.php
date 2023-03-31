@@ -7,14 +7,14 @@
             <div class="col-4 nav_left_col">
                 <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end" >
                     <nav class="nav nav-pills flex-column">
-                        <a class="nav-link" href="#item-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ПЛЕЙ-ОФФ</font></font></a>
+                        <a class="nav-link" href="#item-5">ПЛЕЙ-ОФФ</a>
                         <nav class="nav nav-pills flex-column">
-                            <a class="nav-link ms-3 my-1" href="#item-5-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «Прометей» 1гра</font></font></a>
-                            <a class="nav-link ms-3 my-1" href="#item-5-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «Прометей» 2гра</font></font></a>
+                            <a class="nav-link ms-3 my-1" href="#item-5-1">ВК «Прометей» гра</a>
+                            <a class="nav-link ms-3 my-1" href="#item-5-2">ВК «Прометей» 2гра</a>
                         </nav>
                     </nav>
                     <nav class="nav nav-pills flex-column">
-                        <a class="nav-link" href="#item-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3 коло</font></font></a>
+                        <a class="nav-link" href="#item-4">3 коло</a>
                         <nav class="nav nav-pills flex-column">
                             <a class="nav-link ms-3 my-1" href="#item-4-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «РЕШЕТИЛІВКА»</font></font></a>
                             <a class="nav-link ms-3 my-1" href="#item-4-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «ЖИТИЧІ-ПОЛІССЯ»</font></font></a>
@@ -26,13 +26,13 @@
                         </nav>
                     </nav>
                     <nav class="nav nav-pills flex-column">
-                        <a class="nav-link" href="#item-3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">КУБОК ЛІГИ</font></font></a>
+                        <a class="nav-link kalendar_tittle" href="#item-3"><font><font style="vertical-align: inherit;">КУБОК ЛІГИ</font></font></a>
                         <nav class="nav nav-pills flex-column">
                             <a class="nav-link ms-3 my-1" href="#item-3-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «Прометей»</font></font></a>
                         </nav>
                     </nav>
                     <nav class="nav nav-pills flex-column">
-                        <a class="nav-link" href="#item-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2 коло</font></font></a>
+                        <a class="nav-link" href="#item-2">2 коло</a>
                         <nav class="nav nav-pills flex-column">
                             <a class="nav-link ms-3 my-1" href="#item-2-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «РЕШЕТИЛІВКА»</font></font></a>
                             <a class="nav-link ms-3 my-1" href="#item-2-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «ЖИТИЧІ-ПОЛІССЯ»</font></font></a>
@@ -44,7 +44,7 @@
                         </nav>
                     </nav>
                     <nav class="nav nav-pills flex-column">
-                        <a class="nav-link" href="#item-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1 коло</font></font></a>
+                        <a class="nav-link" href="#item-1">1 коло</a>
                         <nav class="nav nav-pills flex-column">
                             <a class="nav-link ms-3 my-1" href="#item-1-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «РЕШЕТИЛІВКА»</font></font></a>
                             <a class="nav-link ms-3 my-1" href="#item-1-2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ВК «ЖИТИЧІ-ПОЛІССЯ»</font></font></a>
@@ -69,10 +69,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/7032023-politsiya-okhorony-zunu-dynamo-vk-prometey">
-                                        <img class="display-block" width="350" src="img/logo/promTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/promTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=215&ID=5&CID=13&PID=15&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -85,10 +85,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/9032023-vk-prometey-ta-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/promTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/promTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=219&ID=5&CID=13&PID=15&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -104,10 +104,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/1901-2023-vk-reshetylivka-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="https://pvlu.org/sites/default/files/gallery/2023-01/BLT04826.jpg" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/resTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=150&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -120,10 +120,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/21012023-politsiya-okhorony-dynamo-zunu-vk-zhytychi-polissya">
-                                        <img class="display-block" width="350" src="https://pvlu.org/sites/default/files/gallery/2023-01/BLT08665.jpg" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/zutuTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=154&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -136,10 +136,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/1022023-politsiya-okhorony-zunu-dynamo-vk-mkhp-vinnytsya">
-                                        <img class="display-block" width="350" src="img/logo/mxpTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/mxpTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=158&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -152,10 +152,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/3022023-epitsentr-podolyany-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/epicTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/epicTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=162&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -168,10 +168,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/politsiya-okhorony-zunu-dynamo-barkom-zbirna-ukrayiny-u-18">
-                                        <img class="display-block" width="350" src="img/logo/barTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/barTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=165&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -184,10 +184,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/16022023-politsiya-okhorony-zunu-dynamo-vk-prometey">
-                                        <img class="display-block" width="350" src="img/logo/promTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/promTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=168&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -200,10 +200,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/18022023-vsk-yurydychna-akademiya-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/lawTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/lawTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=171&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -219,10 +219,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/20122022-kubok-lihy-vk-prometey-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/promTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/promTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=143&ID=6&CID=9&PID=11&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -238,10 +238,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/4112022-vk-reshetylivka-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="https://pvlu.org/sites/default/files/gallery/2022-12/BLT08623.jpg" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/resTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=97&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -254,10 +254,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/6112022-politsiya-okhorony-dynamo-zunu-vk-zhytychi-polissya-0">
-                                        <img class="display-block" width="350" src="https://pvlu.org/sites/default/files/gallery/2022-12/BLT06157.jpg" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/zutuTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=101&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -270,10 +270,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/410-2022-politsiya-okhorony-zunu-dynamo-vk-mkhp-vinnytsya">
-                                        <img class="display-block" width="350" src="img/logo/mxpTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/mxpTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=111&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -286,10 +286,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/25112022-epitsentr-podolyany-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/epicTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/epicTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=115&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -302,10 +302,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/27112022-politsiya-okhorony-zunu-dynamo-barkom-zbirna-ukrayiny-u18">
-                                        <img class="display-block" width="350" src="img/logo/barTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/barTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=118&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -318,10 +318,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/9122022-politsiya-okhorony-zunu-dynamo-vk-prometey">
-                                        <img class="display-block" width="350" src="img/logo/promTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/promTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=132&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -334,10 +334,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/111222-vsk-yurydychna-akademiya-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/lawTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/lawTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=135&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -353,10 +353,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/23092022-vk-reshetylivka-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="https://pvlu.org/sites/default/files/gallery/2022-12/BLT02323.jpg" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/resTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=41&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -369,10 +369,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/25092022-politsiya-okhorony-zunu-dynamo-vk-zhytychi-polissya">
-                                        <img class="display-block" width="350" src="https://pvlu.org/sites/default/files/gallery/2022-12/BLT06157.jpg" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/zutuTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=45&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -385,10 +385,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/410-2022-politsiya-okhorony-zunu-dynamo-vk-mkhp-vinnytsya">
-                                        <img class="display-block" width="350" src="img/logo/mxpTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/mxpTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=55&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -401,10 +401,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/610-2022-epitsentr-podolyany-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/epicTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/epicTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu.org/uk/gallery/610-2022-epitsentr-podolyany-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -417,10 +417,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/8102022-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/barTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/barTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=62&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -433,10 +433,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/25092022-politsiya-okhorony-zunu-dynamo-vk-zhytychi-polissya">
-                                        <img class="display-block" width="350" src="img/logo/promTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/promTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu.org/uk/gallery/20102022-politsiya-okhorony-zunu-dynamo-vk-prometey">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>
@@ -449,10 +449,10 @@
                                 </div>
                                 <div class="row mb-4 text-center">
                                     <a class="col" href="https://pvlu.org/uk/gallery/22102022-vsk-yurydychna-akademiya-politsiya-okhorony-zunu-dynamo">
-                                        <img class="display-block" width="350" src="img/logo/lawTeam.webp" alt="foto">
+                                        <img class="display-block" width="350" src="../resources/images/logo/lawTeam.webp" alt="foto">
                                     </a>
                                     <a class="col" href="https://pvlu-web.dataproject.com/MatchStatistics.aspx?mID=81&ID=5&CID=4&PID=6&type=LegList">
-                                        <img class="display-block" width="350" src="img/Statictiks/resetul1tur.png" alt="Статитика">
+                                        <img class="display-block" width="350" src="../resources/images/Statictiks/resetul1tur.png" alt="Статитика">
                                     </a>
                                 </div>
                             </div>

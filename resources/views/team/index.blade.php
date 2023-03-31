@@ -5,11 +5,9 @@
     <div class="row text-center mb-3">
         <h1 class="col team_list_name ">Гравці</h1>
 
-        <?php
-            if ($user->role == 'admin'){
-        ?>
+            @if ($user -> role == 'admin')
                <a href="{{route('createPlayer')}}" class="col-3 align-middle btn btn-sm btn-outline-secondary">CREATE</a>
-        <?php } ?>
+            @endif
 
     </div>
 
@@ -19,7 +17,7 @@
             <div class="card shadow-sm">
                 <div class="col" style="max-height: 550px">
                     <a href="{{ route('showPlayer', $player->id) }}">
-                        <img class="bd-placeholder-img card-img-top" src="img/team/{{$player->image}}" alt="playerImg">
+                        <img class="bd-placeholder-img card-img-top" src="../resources/images/team/{{$player->image}}" alt="playerImg">
                     </a>
                 </div>
 
@@ -40,9 +38,7 @@
                             <li class="card_text">DATE OF BIRTH <span class="card_subtext">{{$player->byrthday}}</span></li>
                         </ul>
 
-                        <?php
-                           if ($user->role === 'admin'){
-                        ?>
+                        @if ($user->role === 'admin')
                             <div class="btn-group">
                                 <a href="{{route('showPlayer', $player->id)}}" class="btn btn-sm btn-outline-secondary">View</a>
                                 <a href="{{route('editPlayer', $player->id)}}" class="btn btn-sm btn-outline-secondary">UPDATE</a>
@@ -52,11 +48,7 @@
                                     <input type="submit" value="DELETE" class="btn btn-sm btn-outline-secondary">
                                 </form>
                             </div>
-                        <?php
-                           } else {
-                               echo "USER";
-                        }
-                           ?>
+                        @endif
 
                     </div>
                 </div>
@@ -71,7 +63,7 @@
         <div class="col">
             <div class="card shadow-sm р">
                 <div class="col" style="max-height: 420px; display: block">
-                    <img class="bd-placeholder-img card-img-top" src="img/team/krav.jpeg" alt="coach">
+                    <img class="bd-placeholder-img card-img-top" src="../resources/images/team/krav.jpeg" alt="coach">
                 </div>
                 <div class="card rounded-3 shadow-sm">
                     <div class="card-header text-center py-3">
@@ -80,7 +72,7 @@
                     <div class="card-body text-center">
                         <h5 class="card_text card-title pricing-card-title">Головний тренер</h5>
                         <a href="#" target="_blank">
-                            <img class="w-50" src="../img/logo/Instagram.png" alt="insta">
+                            <img class="w-50" src="../resources/images/logo/Instagram.png" alt="insta">
                         </a>
                     </div>
 
@@ -90,7 +82,7 @@
         <div class="col">
             <div class="card shadow-sm">
                 <div class="col" style="max-height: 420px; display: block">
-                    <img class="bd-placeholder-img card-img-top" src="img/team/osa.jpeg" alt="coach">
+                    <img class="bd-placeholder-img card-img-top" src="../resources/images/team/osa.jpeg" alt="coach">
                 </div>
                 <div class="card rounded-3 shadow-sm">
                     <div class="card-header text-center py-3">
@@ -99,7 +91,7 @@
                     <div class="card-body text-center">
                         <h5 class="card_text card-title pricing-card-title">Асистент тренера</h5>
                         <a href="https://www.instagram.com/vitaliyosadtsa/" target="_blank">
-                            <img class="w-50" src="../img/logo/Instagram.png" alt="insta">
+                            <img class="w-50" src="../resources/images/logo/Instagram.png" alt="insta">
                         </a>
                     </div>
 
@@ -109,7 +101,7 @@
         <div class="col">
             <div class="card shadow-sm">
                 <div class="col" style="max-height: 460px; display: block">
-                    <img class="bd-placeholder-img card-img-top" src="img/team/nast.jpeg" alt="coach">
+                    <img class="bd-placeholder-img card-img-top" src="../../images/team/nast.jpeg" alt="coach">
                 </div>
                 <div class="card rounded-3 shadow-sm">
                     <div class="card-header text-center py-3">
@@ -118,7 +110,7 @@
                     <div class="card-body text-center">
                         <h5 class="card_text card-title pricing-card-title">Статистик</h5>
                         <a href="https://www.instagram.com/vitaly_nastyuk/" target="_blank">
-                            <img class="w-50" src="../img/logo/Instagram.png" alt="insta">
+                            <img class="w-50" src="../../images/logo/Instagram.png" alt="insta">
                         </a>
                     </div>
 
@@ -128,7 +120,7 @@
         <div class="col">
             <div class="card shadow-sm">
                 <div class="col" style="max-height: 460px; display: block">
-                    <img class="bd-placeholder-img card-img-top" src="img/team/mas.jpeg" alt="coach">
+                    <img class="bd-placeholder-img card-img-top" src="../../images/team/mas.jpeg" alt="coach">
                 </div>
                 <div class="card rounded-3 shadow-sm">
                     <div class="card-header text-center py-3">
@@ -137,7 +129,7 @@
                     <div class="card-body text-center">
                         <h5 class="card_text card-title pricing-card-title">Масажист</h5>
                         <a href="https://www.instagram.com/anastasiaganin1992/" target="_blank">
-                            <img class="w-50" src="../img/logo/Instagram.png" alt="insta">
+                            <img class="w-50" src="../../images/logo/Instagram.png" alt="insta">
                         </a>
                     </div>
 

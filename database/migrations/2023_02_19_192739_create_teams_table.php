@@ -25,9 +25,6 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->string('insta')->nullable();
 
-//            $table->foreign('image')->references('image')
-//                ->on('statistiks')->onDelete('cascade');
-
             $table->timestamps();
             $table->softDeletes();
         });

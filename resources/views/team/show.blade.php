@@ -9,7 +9,7 @@
                 <div class="col text-center">
                     <a href="{{$id->insta}}">
                         <img class="mb-4 bd-placeholder-img card-img-top" style="max-width: 500px"
-                             src="../img/team/{{$id->image}}" alt="omelchenko">
+                             src="public/img/team/{{$id->image}}" alt="omelchenko">
                     </a>
                 </div>
                 <div class="col">

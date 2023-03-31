@@ -10,13 +10,13 @@
                 <H3 class="text-center">3.04.20023 - 20:00</H3>
             </div>
             <div class="col-5 text-center">
-                <img style="width: 200px" src="img/logo/pol.jpeg" alt="dso">
+                <img style="width: 200px" src="../resources/images/logo/pol.jpeg" alt="dso">
             </div>
             <div class="col-2 text-center">
-                <img style="width: 200px" src="img/logo/vs.jpeg" alt="dso">
+                <img style="width: 200px" src="../resources/images/logo/vs.png" alt="vs">
             </div>
             <div class="col-5 text-center">
-                <img style="width: 200px" src="img/logo/epic.jpeg" alt="prom">
+                <img style="width: 200px" src="../resources/images/logo/epic.jpeg" alt="prom">
             </div>
         </div>
 
@@ -64,64 +64,64 @@
                 </div>
                 <div class="carousel-inner" style="height: 800px;">
                     <div class="carousel-item active">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/0.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/0.jpg" alt="yura">
                     </div>
                     <div class="carousel-item">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/1.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/1.jpg" alt="yura">
                     </div>
                     <div class="carousel-item">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/2.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/2.jpg" alt="yura">
                     </div>
                     <div class="carousel-item">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/3.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/3.jpg" alt="yura">
                     </div>
                     <div class="carousel-item">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/4.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/4.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/5.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/5.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/6.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/6.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/7.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/7.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/8.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/8.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/9.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/9.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/10.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/10.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/11.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/11.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/12.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/12.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/13.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/13.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/14.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/14.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/15.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/15.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/16.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/16.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/17.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/17.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/18.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/18.jpg" alt="yura">
                     </div>
                     <div class="carousel-item ">
-                        <img class="carousel_img w-100" src="img/play-off%20Prometey/19.jpg" alt="yura">
+                        <img class="carousel_img w-100" src="../resources/images/play-off%20Prometey/19.jpg" alt="yura">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
