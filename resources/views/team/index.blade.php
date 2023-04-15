@@ -17,7 +17,7 @@
             <div class="card shadow-sm">
                 <div class="col" style="max-height: 550px">
                     <a href="{{ route('showPlayer', $player->id) }}">
-                        <img class="bd-placeholder-img card-img-top" src="../resources/images/team/{{$player->image}}" alt="playerImg">
+                        <img class="bd-placeholder-img card-img-top" src="../../images/team/{{$player->image}}" alt="playerImg">
                     </a>
                 </div>
 
@@ -63,7 +63,7 @@
         <div class="col">
             <div class="card shadow-sm р">
                 <div class="col" style="max-height: 420px; display: block">
-                    <img class="bd-placeholder-img card-img-top" src="../resources/images/team/krav.jpeg" alt="coach">
+                    <img class="bd-placeholder-img card-img-top" src="../../images/team/krav.jpeg" alt="coach">
                 </div>
                 <div class="card rounded-3 shadow-sm">
                     <div class="card-header text-center py-3">
@@ -72,7 +72,7 @@
                     <div class="card-body text-center">
                         <h5 class="card_text card-title pricing-card-title">Головний тренер</h5>
                         <a href="#" target="_blank">
-                            <img class="w-50" src="../resources/images/logo/Instagram.png" alt="insta">
+                            <img class="w-50" src="../../images/logo/Instagram.png" alt="insta">
                         </a>
                     </div>
 
@@ -82,7 +82,7 @@
         <div class="col">
             <div class="card shadow-sm">
                 <div class="col" style="max-height: 420px; display: block">
-                    <img class="bd-placeholder-img card-img-top" src="../resources/images/team/osa.jpeg" alt="coach">
+                    <img class="bd-placeholder-img card-img-top" src="../../images/team/osa.jpeg" alt="coach">
                 </div>
                 <div class="card rounded-3 shadow-sm">
                     <div class="card-header text-center py-3">
@@ -91,7 +91,7 @@
                     <div class="card-body text-center">
                         <h5 class="card_text card-title pricing-card-title">Асистент тренера</h5>
                         <a href="https://www.instagram.com/vitaliyosadtsa/" target="_blank">
-                            <img class="w-50" src="../resources/images/logo/Instagram.png" alt="insta">
+                            <img class="w-50" src="../../images/logo/Instagram.png" alt="insta">
                         </a>
                     </div>
 

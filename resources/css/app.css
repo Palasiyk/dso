@@ -1,7 +1,73 @@
+
+/*body*/
+iframe{
+    margin: 0 auto !important;
+    width: 90% !important;
+    /*height: 50% !important;*/
+}
+@media (max-width: 770px) {
+    iframe{
+        margin: 0 auto !important;
+        width: 90% !important;
+        height: auto !important;
+    }
+}
+
+
+
+
+
+/*header*/
 .logo{
     width: 20%;
 }
+.header_menu{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+@media (max-width: 500px) {
+    .navbar-brand{
+        width: 50% !important;
+        min-width: 200px !important;
+    }
+}
 
+
+
+
+
+/*home*/
+.next_game{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.next_game_logo{
+    width: 100% !important;
+    max-width: 250px !important;
+}
+
+.carousel-inner{
+    object-fit: contain;
+}
+
+@media (max-width: 500px) {
+    .next_game_logo{
+        width: 100% !important;
+        min-width: 50px !important;
+    }
+    next_game_vs{
+        width: 50% !important;
+    }
+}
+
+.next_game_vs{
+    /*width: 100px !important;*/
+}
+
+
+
+
+/*kalendar*/
 .play-off_border{
     border: 2px solid black;
     border-radius: 10px;
@@ -23,7 +89,26 @@
     }
 }
 
+
+
 /*GALARY_BLADE*/
 .kalendar_tittle{
     vertical-align: inherit
 }
+
+/*about*/
+.about_logo{
+    width: 33%;
+    min-width: 200px;
+}
+/*.about_logo_get{*/
+/*    width: 30%;*/
+/*}*/
+.about_logo img{
+    object-fit: contain;
+    width: 100%;
+    /*min-width: 200px;*/
+    height: auto;
+}
+
+/*footer*/

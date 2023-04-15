@@ -9,7 +9,7 @@
                 <div class="col text-center">
                     <a href="{{$id->insta}}">
                         <img class="mb-4 bd-placeholder-img card-img-top" style="max-width: 500px"
-                             src="public/img/team/{{$id->image}}" alt="omelchenko">
+                             src="../../images/team/{{$id->image}}" alt="omelchenko">
                     </a>
                 </div>
                 <div class="col">
@@ -40,7 +40,7 @@
 
                         <div class="nav m-3">
                             <a href="{{$id->insta}}" target="_blank">
-                                <img class="w-50" src="../img/logo/Instagram.png" alt="insta">
+                                <img class="w-50" src="../../images/logo/Instagram.png" alt="insta">
                             </a>
                         </div>
                     </div>

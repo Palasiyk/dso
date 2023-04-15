@@ -16,11 +16,12 @@ class TeamController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Team $id):View
+    public function index(Team $id, User $user):View
     {
-        $user = User::find(1);
+        $user = User::where('role', 'admin')->first();
+//        $user = Team::all();
 //        $role = $user -> role;
-//        dd($role);
+//        dd($user->role);
         return view('team.index', compact('id', 'user'),[
             'team'=>Team::all()
         ]);

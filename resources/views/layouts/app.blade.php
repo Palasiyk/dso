@@ -26,9 +26,9 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
+            <div class="container header_menu">
                 <a class="navbar-brand" href="{{ url('/home') }}">
-                    <img class="logo" src="../resources/images/DSO.svg" alt="logo">
+                    <img class="logo" src="../../images/DSO.svg" alt="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
