@@ -6,8 +6,8 @@
     <div class="container home_first">
         <div class="row">
             <div class="row">
-                <H1 class="text-center">Наступний матч</H1>
-                <H3 class="text-center">3.04.20023 - 20:00</H3>
+                <h1 class="text-center">Наступний матч</h1>
+                <h3 class="text-center">3.04.20023 - 20:00</h3>
             </div>
             <div class="row next_game mb-3 ">
                 <div class="col-5 text-center">

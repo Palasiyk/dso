@@ -1,16 +1,15 @@
 
 /*body*/
 iframe{
-    margin: 0 auto !important;
-    width: 90% !important;
-    /*height: 50% !important;*/
+    height: 300px !important;
 }
-@media (max-width: 770px) {
-    iframe{
-        margin: 0 auto !important;
-        width: 90% !important;
-        height: auto !important;
-    }
+.nav-link{
+    font-size: 15px!important;
+    font-weight: normal!important;
+    color: #1a1e21!important;
+}
+.nav-link.active{
+    background-color: #8a3ecc !important;
 }
 
 
@@ -86,8 +85,23 @@ iframe{
     }
     .nav_left_col{
         display: none;
+        width: 0px;
+    }
+    .nav_right_col{
+        min-width: 500px;
+        width: 100%;
+    }
+    iframe{
+        height: auto !important;
     }
 }
+@media (max-width: 390px) {
+    .nav_right_col{
+        min-width: 350px;
+        width: 100%;
+    }
+}
+
 
 
 
@@ -95,6 +109,15 @@ iframe{
 .kalendar_tittle{
     vertical-align: inherit
 }
+.nav_left_item{
+    height: 100vh;
+    overflow-y: scroll;
+}
+.nav_right_item{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 
 /*about*/
 .about_logo{

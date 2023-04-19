@@ -8,9 +8,11 @@ use Illuminate\Database\Eloquent\Model;
 class Game_playoff extends Model
 {
     use HasFactory;
+//    protected $table = 'game_playoff';
 
-    public function stat()
+    public function game()
     {
-        return $this->hasOne(Statistik::class, 'namber', 'namber' );
+        return $this->hasOne(Oponent::class, 'game_playoff_id', 'id' );
     }
 }
+

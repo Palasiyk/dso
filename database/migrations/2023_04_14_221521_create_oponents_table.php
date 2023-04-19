@@ -16,7 +16,27 @@ return new class extends Migration
             $table->string('team_name');
             $table->string('team_logo');
             $table->string('team_foto');
+            $table->unsignedBigInteger('game_playoff_id');
+            $table->unsignedBigInteger('game_kup_id');
+            $table->unsignedBigInteger('game_r3_id');
+            $table->unsignedBigInteger('game_r2_id');
+            $table->unsignedBigInteger('game_r1_id');
             $table->timestamps();
+
+            $table->foreign('game_playoff_id')->references('id')
+                ->on('game_playoffs')->onDelete('cascade');
+
+            $table->foreign('game_kup_id')->references('id')
+                ->on('game_kups')->onDelete('cascade');
+
+            $table->foreign('game_r3_id')->references('id')
+                ->on('game_r3s')->onDelete('cascade');
+
+            $table->foreign('game_r2_id')->references('id')
+                ->on('game_r2s')->onDelete('cascade');
+
+            $table->foreign('game_r1_id')->references('id')
+                ->on('game_r1s')->onDelete('cascade');
         });
     }
 

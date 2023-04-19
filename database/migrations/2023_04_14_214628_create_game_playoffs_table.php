@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('game_playoffs', function (Blueprint $table) {
             $table->id();
+
+//            $table->unsignedBigInteger('oponent_id');
+//            $table->foreignId('oponent_id')->references('game_playoff_id')
+//                ->on('oponents')->onDelete('cascade');
+
             $table->string('team_name');
             $table->date('data');
             $table->text('video');

@@ -16,5 +16,6 @@ class Statistik extends Model
 
     public function team()
     {
-        return $this->hasOne(Statistik::class, 'image', 'image' );    }
+        return $this->belongsTo(Statistik::class, 'image', 'image' );
+    }
 }

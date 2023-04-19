@@ -12,13 +12,10 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="public/build/assets/app-5b56c223.css">
-    <link rel="stylesheet" href="public/build/assets/app-18ebd5db.css">
+    <link rel="stylesheet" href="resources/sass/app.scss">
+    <link rel="stylesheet" href="resources/css/app.css">
     <link href="/" rel="stylesheet">
 
-{{--    <!-- Bootstrap -->--}}
-{{--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"--}}
-{{--          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">--}}
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
@@ -128,9 +125,7 @@
         </footer>
     </div>
 
-{{--    <!-- Bootstrap -->--}}
-{{--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>--}}
-
-    <script src="public/build/assets/app-4c85f5d2.js"></script>
+    <script src="resources/js/app.js"></script>
+    <script src="resources/js/bootstrap.js"></script>
 </body>
 </html>

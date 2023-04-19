@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('game_r3s', function (Blueprint $table) {
             $table->id();
+
+//            $table->unsignedBigInteger('oponent_id');
+//            $table->foreign('oponent_id')->references('game_r3_id')
+//                ->on('oponents')->onDelete('cascade');
+
             $table->string('team_name');
             $table->date('data');
             $table->string('video');

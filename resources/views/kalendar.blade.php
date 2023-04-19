@@ -33,7 +33,7 @@
                         </div>
                     </div>
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img style="width: 60px" src="../../images/logo/pol.svg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/DSO.svg" alt="logo">
                         <h4 class="team_name_play-off" style="font-size: 25px">"ПОЛІЦІЯ ОХОРОНИ-ЗУНУ-ДИНАМО"</h4>
                         <div class="col">
                             <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">0</h2>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img style="width: 60px" src="../../images/logo/reset.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/reset.png" alt="logo">
                         <h4 class="team_name_play-off">"ВК "Решетилівка"</h4>
                         <div class="col">
                             <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">0</h2>
@@ -58,14 +58,14 @@
                 </div>
                 <div class="row m-2 play-off_border">
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img style="width: 60px" src="../../images/logo/mxp.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/mxp.png" alt="logo">
                         <h4 class="team_name_play-off">"МХП-Вінниця"</h4>
                         <div class="col">
                             <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">1</h2>
                         </div>
                     </div>
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img style="width: 60px" src="../../images/logo/law.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/law.png" alt="logo">
                         <h4 class="team_name_play-off">ВСК "Юридична академія"</h4>
                         <div class="col">
                             <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">2</h2>
@@ -93,14 +93,14 @@
                 </div>
                 <div class="row m-2 play-off_border">
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img style="width: 60px" src="../../images/logo/prom.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/prom.png" alt="logo">
                         <h3 class="team_name_play-off">ВК "Прометей"</h3>
                         <div class="col">
                             <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">2</h2>
                         </div>
                     </div>
                     <div class="col d-block d-flex flex-row align-items-center text-center justify-content-center m-1">
-                        <img style="width: 60px" src="../../images/logo/zutu.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/zutu.png" alt="logo">
                         <h3 class="team_name_play-off">"Житичі-Полісся"</h3>
                         <div class="col">
                             <h2 style="font-size: xxx-large; font-style: italic; font-weight: bolder; color: #7d1dd4">0</h2>
@@ -246,7 +246,7 @@
                 <tr>
                     <th scope="row">1</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/epic.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/epic.svg" alt="logo">
                     </td>
                     <td class="team_name">"Епіцентр-Подоляни"</td>
                     <td>21</td>
@@ -259,7 +259,7 @@
                 <tr>
                     <th scope="row">2</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/prom.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/prom.png" alt="logo">
                     </td>
                     <td class="team_name">ВК "Прометей"</td>
                     <td>21</td>
@@ -298,7 +298,7 @@
                 <tr>
                     <th scope="row">5</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/law.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/law.png" alt="logo">
                     </td>
                     <td class="team_name">ВСК "Юридична академія"</td>
                     <td>21</td>
@@ -311,7 +311,7 @@
                 <tr>
                     <th scope="row">6</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/reset.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/reset.png" alt="logo">
                     </td>
                     <td class="team_name">"Збірна Полтавської області ВК "Решетилівка"</td>
                     <td>21</td>
@@ -324,7 +324,7 @@
                 <tr>
                     <th scope="row">7</th>
                     <td>
-                        <img style="width: 60px" src="../../images/logo/pol.jpeg" alt="logo">
+                        <img style="width: 60px" src="../../images/logo/DSO.svg" alt="logo">
                     </td>
                     <td class="team_name">"ПОЛІЦІЯ ОХОРОНИ-ЗУНУ-ДИНАМО"</td>
                     <td>21</td>
